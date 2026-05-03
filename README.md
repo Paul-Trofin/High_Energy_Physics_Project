@@ -44,7 +44,7 @@ root -l get_variables.C'("qq_Z_ee.root")'
   - Another file is created "variables.root" which contains all the information needed for extracting the four-momenta of the electron-positron pair, necessary for calculating the kinematic variables used (especially the invariant mass of the Z boson).
 
 ---
-## You can change the options as you may like, to suit your desired HEP MC data production.
+## You can change the options as you like, to suit your desired HEP MC data production.
 ---
 ## Python3 Script "generate_delphes_macros.py" Overview:
 - OPTIONS (used for ".cmnd" files):
@@ -81,6 +81,12 @@ root -l get_variables.C'("qq_Z_ee.root")'
 ## You may use this script as you like to produce your desired HEP MC data.
 ---
 
+
+## Inside the "Analysis" folder you will find:
+- cut_variables.C (used to refine the data)
+- stack_hist.C (used to stack histograms on top of each other for analysis)
+- plot_DielectronMass.C (used to plot the mass of the e-e+ pairs)
+- EventDisplay.C (used to visualize via Delphes GUI each event)
 
 
 
