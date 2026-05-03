@@ -22,7 +22,7 @@
 ## Let's run the first (default) example:
 - Clone the GitHub Repository
 ```bash
-git clone https://github.com/Paul-Trofin/TPaul_Z_Mass_JHEP
+git clone https://github.com/Paul-Trofin/High_Energy_Physics_Project
 ```
 - Run the *python3* script "generate_delphes_macros.py"
 ```bash
